@@ -7,9 +7,6 @@
  */
 public class BagOfRiceScript
 {
-    private int price;
-    //this is a field. this exists to establish the data type the variable is
-    
     public BagOfRiceScript(int cost)
     //this is a constructor. it does not have a data type
     //(int cost) is the parameter
@@ -18,6 +15,9 @@ public class BagOfRiceScript
         price = cost;
         //somehow, typing "cost = price;" makes the code print 0 dollars
     }
+
+    private int price;
+    //this is a field. this exists to establish the data type the variable is
     
     public void showPrice()
     {
