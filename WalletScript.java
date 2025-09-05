@@ -13,6 +13,7 @@ public class WalletScript
     }
     
     private int Silver_Coin;
+    private int Gold_Coin;
     
     public void showWalletContents()
     //this is a method
@@ -22,6 +23,13 @@ public class WalletScript
         }
         else{
         System.out.println("You have " + Silver_Coin + " silver coin");
+        }
+        
+        if (Gold_Coin > 1){
+        System.out.println("You have " + Gold_Coin + " gold coins");
+        }
+        else{
+        System.out.println("You have " + Gold_Coin + " gold coin");
         }
     }
 }
