@@ -29,6 +29,11 @@ public class BagOfRiceScript
     public int Gold_Coin;
     public void buyABagOfRice()
     {
-        
+        if (Silver_Coin + Gold_Coin > price){
+            System.out.println("You have bought a bag of rice for " + price + " dollars.");
+        }
+        else{
+            System.out.println("You do not have enough dollars to buy the item.");
+        }
     }
 }
