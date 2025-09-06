@@ -13,8 +13,8 @@ public class WalletScript
         Gold_Coin = gold_coin;
     }
     
-    private int Silver_Coin;
-    private int Gold_Coin;
+    public int Silver_Coin;
+    public int Gold_Coin;
     
     public void showWalletContents()
     //this is a method

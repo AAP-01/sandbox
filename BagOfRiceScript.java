@@ -19,14 +19,16 @@ public class BagOfRiceScript
 
     private int price;
     //this is a field. this exists to establish the data type the variable is
-    
     public void showPrice()
     //this is a method
     {
         System.out.println("A bag of rice costs " + price + " dollars");
     }
     
-    private int silver_coin;
-    private int gold_coin;
-    
+    public int Silver_Coin;
+    public int Gold_Coin;
+    public void buyABagOfRice()
+    {
+        
+    }
 }
