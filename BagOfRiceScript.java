@@ -14,6 +14,7 @@ public class BagOfRiceScript
     {
         price = cost;
         //somehow, typing "cost = price;" makes the code print 0 dollars
+        //maybe the process is: "price," THIS NEW VARIABLE, stores the value of "cost"
     }
 
     private int price;
