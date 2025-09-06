@@ -10,6 +10,7 @@ public class WalletScript
     public WalletScript(int silver_coin, int gold_coin)
     {
         Silver_Coin = silver_coin;
+        Gold_Coin = gold_coin;
     }
     
     private int Silver_Coin;
